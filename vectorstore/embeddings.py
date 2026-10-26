@@ -1,4 +1,4 @@
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.vectorstores import FAISS
 
 
@@ -9,8 +9,8 @@ class Embedding:
 
     def create_embeddings(self):
 
-        embeddings = HuggingFaceEmbeddings(
-            model_name="sentence-transformers/all-MiniLM-L6-v2"
+        embeddings = GoogleGenerativeAIEmbeddings(
+            model="gemini-embedding-001"
         )
 
         vectorstore = FAISS.from_documents(

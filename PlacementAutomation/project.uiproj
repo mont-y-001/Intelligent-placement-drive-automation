@@ -1,0 +1,6 @@
+{
+  "Name": "PlacementAutomation",
+  "ProjectType": "Process",
+  "Description": "Excel activities package",
+  "MainFile": "Main.xaml"
+}

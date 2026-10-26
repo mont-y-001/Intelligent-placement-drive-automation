@@ -14,3 +14,4 @@ openpyxl
 pydantic
 python-dotenv
 python-pptx
+reportlab
