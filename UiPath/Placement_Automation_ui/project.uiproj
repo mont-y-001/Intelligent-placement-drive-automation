@@ -1,0 +1,6 @@
+{
+  "Name": "Placement_Automation_ui",
+  "ProjectType": "Process",
+  "Description": "Blank Process",
+  "MainFile": "Main.xaml"
+}
